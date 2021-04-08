@@ -5,7 +5,7 @@ metadata:
 spec:
   tenant: templates
   contact:
-    email: your-mail@phylake.io
+    email: contact@example.com
     slack: https://your-org.slack.com/archives/XXXXXXXXX
   configuration:
     description: Non-productive cluster as blueprint from a template cluster repository.
