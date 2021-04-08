@@ -9,7 +9,7 @@ spec:
     slack: https://your-org.slack.com/archives/XXXXXXXXX
   configuration:
     description: Non-productive cluster as blueprint from a template cluster repository.
-    geographicLocation: AWS EU/Frankfurt
+    geographicLocation: Azure - Germany West Central 
     costCenter: 1000
     production: false
     securityLevel: internal
