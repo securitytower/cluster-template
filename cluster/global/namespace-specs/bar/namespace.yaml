@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: bar
+  annotations:
+    phylake.io/contact-email: "contact@example.com"
+    phylake.io/cost-center: "1000"
+    phylake.io/imageallowlist.trustedimages: >-
+      nginx
