@@ -1,0 +1,12 @@
+apiVersion: phylake.io/v1alpha1
+kind: Application
+metadata:
+  name: namespaces
+spec:
+  stages:
+    - name: namespaces
+      cluster:
+        repository: https://github.com/phylake-io/cluster-template.git
+        name: single-cluster
+      resources:
+        path: cluster/global/namespace-specs
