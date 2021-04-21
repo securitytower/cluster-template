@@ -9,7 +9,8 @@ The conventions and best practices used here make it work seamlessly with [Phyla
 .
 ├── .phylake
 │   ├── cluster.yaml
-│   └── demo-app.yaml
+│   ├── demo-app.yaml
+│   └── ...
 ├── cluster
 │   ├── metadata
 |   |   └── sealed-secret-cert.pem
