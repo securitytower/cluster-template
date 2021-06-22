@@ -1,13 +1,13 @@
 # Cluster Repository
 
 This repository represents a single cluster repository.
-The conventions and best practices used here make it work seamlessly with [Phylake](https://app.phylake.io/).
+The conventions and best practices used here make it work seamlessly with [Syncier Security Tower](https://app.securitytower.io/).
 
 ## Directory Layout
 
 ``` text
 .
-├── .phylake
+├── .securitytower
 │   ├── cluster.yaml
 │   ├── demo-app.yaml
 │   └── ...
@@ -34,16 +34,16 @@ The conventions and best practices used here make it work seamlessly with [Phyla
 └── README.md
 ```
 
-### `/.phylake`
+### `/.securitytower`
 
-[Phylake](https://app.phylake.io/) reads all configuration files in this directory regardless of their names.
+[Syncier Security Tower](https://app.securitytower.io/) reads all configuration files in this directory regardless of their names.
 The cluster configuration is mandatory.
 In addition, applications and their stages are stored in this directory.
 
 More information about the structure of these files can be found here:
 
-- <https://phylake.io/docs/reference/clusters>
-- <https://phylake.io/docs/reference/applications>
+- <https://securitytower.syncier.com/docs/reference/clusters>
+- <https://securitytower.syncier.com/docs/reference/applications>
 
 ### `/cluster`
 
@@ -51,7 +51,7 @@ This directory contains all manifests that belong to the Kubernetes cluster.
 
 ### `/cluster/metadata`
 
-If you want to serve a [kubeconfig file](https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/) for your cluster via [Phylake](https://app.phylake.io/), a `kubeconfig.yaml` must reside in this directory.
+If you want to serve a [kubeconfig file](https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/) for your cluster via [Syncier Security Tower](https://app.securitytower.io/), a `kubeconfig.yaml` must reside in this directory.
 This directory is also meant to store certificates containing the public key used for [sealed secrets](https://github.com/bitnami-labs/sealed-secrets).
 
 ### `/cluster/global`
@@ -81,7 +81,7 @@ The directory layout for an example policy looks like:
 
 #### Policy manifests
 
-The policies root directory contains a `.policy` file for every policy activated via [Phylake](https://phylake.io).
+The policies root directory contains a `.policy` file for every policy activated via [Syncier Security Tower](https://app.securitytower.io/).
 It contains metadata and references other files belonging to that policy.
 
 #### Constraints and constraint templates
