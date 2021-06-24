@@ -3,19 +3,19 @@ kind: Application
 metadata:
   name: demo-app
 spec:
-  applicationOwner: phylake-demo
+  applicationOwner: securitytower-demo
   securityLevel: internal
   stages:
     - name: foo
       cluster:
-        repository: https://github.com/phylake-io/cluster-template.git
+        repository: https://github.com/securitytower/cluster-template.git
         name: single-cluster
       resources:
         path: cluster/namespaces/foo
       targetNamespace: foo
     - name: bar
       cluster:
-        repository: https://github.com/phylake-io/cluster-template.git
+        repository: https://github.com/securitytower/cluster-template.git
         name: single-cluster
       resources:
         path: cluster/namespaces/bar
