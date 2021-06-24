@@ -7,3 +7,5 @@ metadata:
     phylake.io/cost-center: "1000"
     phylake.io/imageallowlist.trustedimages: >-
       nginx
+    securitytower.io/imageallowlist.trustedimages: >-
+      nginx
