@@ -6,7 +6,7 @@ spec:
   stages:
     - name: policies
       cluster:
-        repository: https://github.com/phylake-io/cluster-template.git
+        repository: https://github.com/securitytower/cluster-template.git
         name: single-cluster
       resources:
         path: cluster/global/policies
