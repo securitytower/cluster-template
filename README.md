@@ -88,7 +88,7 @@ It contains metadata and references other files belonging to that policy.
 
 A short introduction to OPA Gatekeeper constraints and constraint templates can be found at <https://open-policy-agent.github.io/gatekeeper/website/docs/howto/>.
 
-For more information about working with policies see <https://phylake.io/docs/reference/policies>.
+For more information about working with policies see <https://securitytower.syncier.com/docs/reference/policies>.
 
 ### `/cluster/namespaces`
 
