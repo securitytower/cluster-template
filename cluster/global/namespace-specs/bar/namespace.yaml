@@ -3,7 +3,7 @@ kind: Namespace
 metadata:
   name: bar
   annotations:
-    phylake.io/contact-email: "contact@example.com"
-    phylake.io/cost-center: "1000"
+    securitytower.io/contact-email: "contact@example.com"
+    securitytower.io/cost-center: "1000"
     securitytower.io/imageallowlist.trustedimages: >-
       nginx
