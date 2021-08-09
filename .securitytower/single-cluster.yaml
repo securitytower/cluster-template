@@ -13,3 +13,7 @@ spec:
     costCenter: 1000
     production: false
     securityLevel: internal
+  policies:
+    path: cluster/global/policies
+  namespaces:
+    - path: cluster/global/namespace-specs
